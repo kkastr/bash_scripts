@@ -7,7 +7,7 @@
 #$4 is port used for connection ( each 22xx corresponds to a different machine in the MCS network )
 
 
-echo "\n" >> ~/.ssh/config
+echo $'\n' >> ~/.ssh/config
 echo "Host $3" >> ~/.ssh/config
 echo "    HostName $2" >> ~/.ssh/config
 #echo "    Port $4" >> ~/.ssh/config
