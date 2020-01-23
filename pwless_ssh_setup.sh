@@ -10,7 +10,7 @@
 echo '\n' >> ~/.ssh/config
 echo "Host $3" >> ~/.ssh/config
 echo "    HostName $2" >> ~/.ssh/config
-#echo "    Port $4" >> ~/.ssh/config
+echo "    Port $4" >> ~/.ssh/config
 echo "    User $1" >> ~/.ssh/config
 
 ssh $3 mkdir -p .ssh
